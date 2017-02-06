@@ -1,0 +1,29 @@
+{
+  "name": "assets-append-webpack-plugin",
+  "description": "This plugin allow you to append text/code to your assets with webpack 2.",
+  "version": "0.1.0",
+  "author": "Thomas Cholley <cholley.t@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Waidd/assets-append-webpack-plugin/issues"
+  },
+  "engines": {
+    "node": ">=6.9.4"
+  },
+  "keywords": [
+    "append",
+    "webpack",
+    "webpack-plugin"
+  ],
+  "license": "MIT",
+  "main": "AssetsAppendWebpackPlugin.js",
+  "peerDependencies": {
+    "webpack": ">=2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Waidd/assets-append-webpack-plugin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
