@@ -9,6 +9,9 @@ class WebpackBundleAppend {
   }
 
   append (compilation, name, filename) {
+    if (typeof name === 'undefined') {
+      name = filename;
+    }
     this.snippets.forEach((snippet) => {
       if (snippet.match && !name.match(snippet.match)) { return; }
 
